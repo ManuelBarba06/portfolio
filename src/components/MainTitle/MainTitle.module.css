@@ -1,0 +1,10 @@
+.mainTitleContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.mainTitle {
+    font-size: 100px;
+}
