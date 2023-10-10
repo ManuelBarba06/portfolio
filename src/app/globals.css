@@ -27,6 +27,12 @@ body {
   height: 100vh;
 }
 
-h1 {
-  font-family: var(--font-inter);
+a {
+  text-decoration: none;
+  color: var(--color-principal-hex);
+}
+
+a:hover {
+  color: var(--color-secondary-hex);
+  cursor: pointer;
 }

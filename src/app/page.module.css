@@ -3,7 +3,7 @@
   height: 100%;
   border: 3px solid #fff;
   border-radius: 10px;
-  padding: 20px;
+  padding: 20px 20px 60px 20px;
 }
 
 .mainContainer {
@@ -12,6 +12,23 @@
   flex-direction: row;
   height: 100%;
 }
+
+.mainSocial {
+  padding-bottom: 10px;
+}
+
+.main .mainSocial a {
+  text-decoration: none;
+  color: var(--color-principal-hex);
+  font-size: 3rem;
+  margin-right: 10px;
+}
+
+.main .mainSocial a:hover {
+  color: var(--color-secondary-hex);
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .mainContainer {
     grid-template-columns: repeat(1, 1fr);

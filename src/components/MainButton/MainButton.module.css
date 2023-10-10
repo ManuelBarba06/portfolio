@@ -1,11 +1,4 @@
 .link {
-    text-decoration: none;
-    font-size: 100px;
-    color: var(--color-principal-hex);
     font-weight: 600;
-}
-
-.link:hover {
-    color: var(--color-secondary-hex);
-    cursor: pointer;
+    font-size: 100px;
 }
