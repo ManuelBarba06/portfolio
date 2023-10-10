@@ -1,8 +1,9 @@
 :root {
   --background-hex: #1D1D1D;
-  --color-principal-hex:  #FFF;
+  --color-principal-hex: #FFF;
+  --color-secondary-hex: #139E91;
   
-  --font-principal: 'Inter'
+  --font-principal: 'Inter';
 }
 
 * {

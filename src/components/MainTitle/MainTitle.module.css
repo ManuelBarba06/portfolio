@@ -8,3 +8,7 @@
 .mainTitle {
     font-size: 100px;
 }
+
+.mainTitle span {
+    color: var(--color-secondary-hex);
+}
