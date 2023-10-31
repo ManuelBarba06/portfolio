@@ -6,7 +6,7 @@ const MainButtons = () => {
   
   return (
     <div className={styles.mainButtonsContainer}>
-      <MainButton name='About' href='/'/>
+      <MainButton name='About' href='/about'/>
       <MainButton name='Projects' href='/'/>
       <MainButton name='Contact' href='/'/>
     </div>
