@@ -7,24 +7,26 @@ import MainButtons from '@/components/MainButtons/MainButtons'
 
 import { Inter } from 'next/font/google'
 import Layout from "@/components/Layout/Layout"
+import SocialMediaButton from "@/components/socialMediaButton/SocialMediaButton"
+
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <div className={styles.mainContainer}>
         <MainTitle/>
         <MainButtons/>
       </div>
       <div className={styles.mainSocial}>
-        <a href={"https://www.linkedin.com/in/manuel-barba/"} target='_blank'>
+        <SocialMediaButton link="https://www.linkedin.com/in/manuel-barba/">
           <FaLinkedinIn/>
-        </a>
-        <a href={"https://github.com/ManuelBarba06"} target='_blank'>
+        </SocialMediaButton>
+        <SocialMediaButton link={"https://github.com/ManuelBarba06"}>
           <FaGithub/>
-        </a>
+        </SocialMediaButton>
       </div>
-    </Layout> 
+    </> 
   )
 }

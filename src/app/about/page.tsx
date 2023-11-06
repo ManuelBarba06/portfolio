@@ -9,7 +9,7 @@ import profilePic from '../../assets/perfil.jpg'
 
 const index = () => {
   return (
-    <Layout>
+    <>
       <Title name='about'/>
       <div className={styles.container}>
         <div className={styles.textDiv}>
@@ -27,7 +27,7 @@ const index = () => {
             />
         </div>
       </div>
-    </Layout>
+    </>
   )
 }
 

@@ -8,7 +8,7 @@ const MainButtons = () => {
     <div className={styles.mainButtonsContainer}>
       <MainButton name='About' href='/about'/>
       <MainButton name='Projects' href='/'/>
-      <MainButton name='Contact' href='/'/>
+      <MainButton name='Contact' href='/contact'/>
     </div>
   )
 }
