@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 8vw;
+}
+
+.container .secondary {
+    color: var(--color-secondary-hex);
+}
+
+.infoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+}
+
+.emailContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailContainer h2{
+    margin-right: 0.3vw;
+    font-size: 1vw;
+}
+
+.emailContainer a{
+    font-size: 0.7vw;
+}
+
+.socialMediaContainer {
+    display: flex;
+    flex-direction: column;
+}
