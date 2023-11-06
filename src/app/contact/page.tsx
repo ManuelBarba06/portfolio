@@ -1,5 +1,5 @@
 import Title from '@/components/Title/Title'
-import SocialMediaButton from '@/components/socialMediaButton/SocialMediaButton'
+import SocialMediaButton from '@/components/SocialMediaButton/SocialMediaButton'
 
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 

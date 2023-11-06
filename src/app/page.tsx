@@ -6,8 +6,8 @@ import MainTitle from '@/components/MainTitle/MainTitle'
 import MainButtons from '@/components/MainButtons/MainButtons'
 
 import { Inter } from 'next/font/google'
-import Layout from "@/components/Layout/Layout"
-import SocialMediaButton from "@/components/socialMediaButton/SocialMediaButton"
+
+import SocialMediaButton from "@/components/SocialMediaButton/SocialMediaButton"
 
 
 const inter = Inter({ subsets: ['latin'] })
