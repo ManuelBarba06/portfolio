@@ -1,0 +1,16 @@
+.containerButton {
+    background-color: var(--background-hex);
+    border: 1px solid var(--color-principal-hex);
+    color: var(--color-principal-hex);
+    width: 10%;
+    height: 4vh;
+    font-size: 1vw;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.containerButton:hover {
+    border-color: var(--color-secondary-hex);
+    color: var(--color-secondary-hex);
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.containerBoard{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 5px;
+}
+
+.square {
+    border: 2px solid #B5B5B5;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
