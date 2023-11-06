@@ -1,5 +1,7 @@
 import { link } from 'fs'
+
 import styles from './SocialMediaButton.module.css'
+
 
 interface socialMediaButtonProps {
     name?: string
