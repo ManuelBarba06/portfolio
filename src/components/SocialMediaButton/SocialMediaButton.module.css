@@ -1,7 +1,7 @@
 .containerMediaButton {
     text-decoration: none;
     color: var(--color-principal-hex);
-    font-size: 3rem;
+    font-size: 3vw;
     margin-right: 10px;
 }
 

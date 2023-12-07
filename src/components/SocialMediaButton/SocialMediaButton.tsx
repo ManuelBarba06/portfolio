@@ -1,4 +1,3 @@
-import { link } from 'fs'
 
 import styles from './SocialMediaButton.module.css'
 

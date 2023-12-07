@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import '@testing-library/jest-dom'
 
-import MainButton from "../src/components/MainButton/MainButton";
-import MainButtons from "@/components/MainButtons/MainButtons";
+import MainButton from "../src/app/_components/MainButton/MainButton";
+import MainButtons from "@/app/_components/MainButtons/MainButtons";
 
 describe('MainButtons', () => {
     it('render a MainButton', () => {
