@@ -2,15 +2,11 @@ import {FaLinkedinIn, FaGithub} from "react-icons/fa"
 
 import styles from './page.module.css'
 
-import MainTitle from '@/components/MainTitle/MainTitle'
-import MainButtons from '@/components/MainButtons/MainButtons'
-
-import { Inter } from 'next/font/google'
+import MainTitle from '@/app/_components/MainTitle/MainTitle'
+import MainButtons from '@/app/_components/MainButtons/MainButtons'
 
 import SocialMediaButton from "@/components/SocialMediaButton/SocialMediaButton"
 
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (

@@ -4,3 +4,8 @@
     justify-content: center;
     align-items: center;
 }
+
+.mainButtonsContainer section:not(:last-child) a {
+    margin-bottom: 10px;
+}
+
