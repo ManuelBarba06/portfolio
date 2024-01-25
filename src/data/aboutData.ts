@@ -1,0 +1,4 @@
+
+export const aboutData = {
+    description: "A seasoned Computer Engineer with 3 years of experience in Fullstack JavaScript development. My expertise lies in crafting seamless mobile and web applications using frameworks like React and Node.js. Throughout my journey, I've successfully delivered cutting-edge projects, showcasing a knack for problem-solving and a commitment to quality. Experienced in agile development, I bring a collaborative spirit to cross-functional teams. Eager to explore new technologies, I'm ready to contribute my skills to transformative projects and build something extraordinary. Let's connect!"
+}

@@ -11,18 +11,7 @@ import SocialMediaButton from "@/components/SocialMediaButton/SocialMediaButton"
 export default function Home() {
   return (
     <>
-      <div className={styles.mainContainer}>
-        <MainTitle/>
-        <MainButtons/>
-      </div>
-      <div className={styles.mainSocial}>
-        <SocialMediaButton link="https://www.linkedin.com/in/manuel-barba/">
-          <FaLinkedinIn/>
-        </SocialMediaButton>
-        <SocialMediaButton link={"https://github.com/ManuelBarba06"}>
-          <FaGithub/>
-        </SocialMediaButton>
-      </div>
+      
     </> 
   )
 }
