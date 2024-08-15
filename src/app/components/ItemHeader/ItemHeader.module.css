@@ -1,0 +1,31 @@
+.containerItemHeader {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.containerItemHeaderTitle {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+
+.containerItemHeader::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 5px;
+    background: var(--color-secondary-hex);
+    transition: width 0.6s ease-out;
+}
+
+.containerItemHeader:hover::after {
+    width: 100%;
+}

@@ -2,27 +2,25 @@ import {FaLinkedinIn, FaGithub} from "react-icons/fa"
 
 import styles from './page.module.css'
 
-import MainTitle from '@/app/_components/MainTitle/MainTitle'
-import MainButtons from '@/app/_components/MainButtons/MainButtons'
-
-import SocialMediaButton from "@/components/SocialMediaButton/SocialMediaButton"
-
+import Header from "./components/Header/Header"
+import WelcomeSection from "./components/WelcomeSection/WelcomeSection"
+import AboutMeSection from "./components/AboutMeSection/AboutMeSection"
 
 export default function Home() {
   return (
-    <>
-      <div className={styles.mainContainer}>
-        <MainTitle/>
-        <MainButtons/>
+    <main>
+      <Header/>
+
+
+      <div
+        className={styles.divContainer}
+      >
+        <WelcomeSection/>
       </div>
-      <div className={styles.mainSocial}>
-        <SocialMediaButton link="https://www.linkedin.com/in/manuel-barba/">
-          <FaLinkedinIn/>
-        </SocialMediaButton>
-        <SocialMediaButton link={"https://github.com/ManuelBarba06"}>
-          <FaGithub/>
-        </SocialMediaButton>
+
+      <div>
+        <AboutMeSection/>
       </div>
-    </> 
+    </main>
   )
 }

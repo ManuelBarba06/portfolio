@@ -1,9 +1,9 @@
 :root {
-  --background-hex: #1D1D1D;
+  --background-hex: #1C2227;
   --color-principal-hex: #FFF;
   --color-secondary-hex: #139E91;
   
-  --font-principal: 'Inter';
+  --font-principal: 'Inter', sans-serif;
 }
 
 * {
@@ -23,8 +23,6 @@ body {
   background: var(--background-hex);
   color: var(--color-principal-hex);
   font-family: var(--font-principal);
-  padding: 3rem;
-  height: 100vh;
 }
 
 a {
