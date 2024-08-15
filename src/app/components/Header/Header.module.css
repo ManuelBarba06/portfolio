@@ -1,0 +1,27 @@
+.headerContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.namePrincipal {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.namePrincipal .tsText {
+    color: #3178C6
+}
+
+.headerContainer .containerItems {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+}

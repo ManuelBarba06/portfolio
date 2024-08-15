@@ -1,0 +1,57 @@
+.aboutMeSectionContainer {
+    height: 100vh;
+    background: rgb(28,34,39);
+    background: linear-gradient(rgba(28,34,39,1) 0%, rgba(42,52,67,1) 50%, rgba(28,34,39,1) 100%);
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutMeSectionContainer h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.aboutMeSectionContainer .infoContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    
+}
+
+.aboutMeSectionContainer .infoContainer p {
+    font-size: 1.75rem;
+}
+
+.aboutMeSectionContainer .infoContainer .description {
+    grid-column: 1/4;
+}
+
+.aboutMeSectionContainer .infoContainer img {
+    border-radius: 8vw;
+}
+
+.infoContainer .imageContainer {
+    padding: 20px;
+    border: 5px solid var(--color-secondary-hex);
+    width: fit-content;
+    border-radius: 10vw;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:  100px;
+}
+
+.profileContainer h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 20px;
+}
