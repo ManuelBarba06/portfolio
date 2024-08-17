@@ -4,11 +4,14 @@ import Image from 'next/image'
 import styles from './AboutMeSection.module.css'
 
 import profileImage from '../../../assets/perfil.jpg'
+import Title from '../Title/Title'
 
 const AboutMeSection = () => {
   return (
     <div className={styles.aboutMeSectionContainer}>
-        <h1>About me</h1>
+        <Title
+          name="About Me"
+        />
 
         <div
             className={styles.infoContainer}
