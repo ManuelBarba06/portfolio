@@ -1,0 +1,101 @@
+{
+    "skills": {
+        "frontEnd": [
+            {
+                "name": "HTML",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723866305/portfolio/skills/f9wrxozp5ukpe4gm9z3u.png",
+                "color": "#e34c26"
+            },
+            {
+                "name": "CSS",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723866440/portfolio/skills/hqz544ymvwrpotpscx2f.png",
+                "color": "#264de4"
+            },
+            {
+                "name": "JavaScript",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723845448/portfolio/skills/q4trjgdc7mcfem5cxpjb.png",
+                "color": "#f0db4f"
+            },
+            {
+                "name": "TypeScript",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723851459/portfolio/skills/pcm1tclbm1nwhuzrwdkx.png",
+                "color": "#007acc"
+            },
+            {
+                "name": "React",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723851909/portfolio/skills/g1ua1so50l0bdkmm6cc5.webp",
+                "color": "#61dafb"
+            },
+            {
+                "name": "Vue.js",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723851988/portfolio/skills/ziejidne48r3sok7zt3q.png",
+                "color": "#42b883"
+            },
+            {
+                "name": "Next.js",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723852170/portfolio/skills/izf2mnpycyiwl9f4xvk4.png",
+                "color": "#000000"
+            },
+            {
+                "name": "Angular",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723852656/portfolio/skills/nuxsnkn7kjzoctkauck2.png",
+                "color": "#a6120d"
+            }
+        ],
+        "backEnd": [
+            {
+                "name": "Node.js",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723868908/portfolio/skills/nokft6uawqsjraqjbgsf.webp",
+                "color": "#3c873a"
+            },
+            {
+                "name": "Express.js",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723869679/portfolio/skills/wb61nepdiyfkwaoh4swt.png",
+                "color": "#ffffff"
+            },
+            {
+                "name": "Nest.js",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723869755/portfolio/skills/ntpjlyfxsl75srp9b6az.svg",
+                "color": "#E73336"
+            },
+            {
+                "name": "GraphQL",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723869847/portfolio/skills/xb7yfb5dfjhye3qf4znv.png",
+                "color": "#e535ab"
+            },
+            {
+                "name": ".NET",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723870029/portfolio/skills/qu8btt2s6mzatabam1jw.png",
+                "color": "#512BD4"
+            },
+            {
+                "name": "MongoDB",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723870078/portfolio/skills/wyvyif1tllbmewmmcwsp.webp",
+                "color": "#47A248"
+            },
+            {
+                "name": "MySQL",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723870213/portfolio/skills/y1idtrgvjgnmygrepopi.png",
+                "color": "#00758F"
+            },
+            {
+                "name": "JWT",
+                "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1723870368/portfolio/skills/h16vmj1hl3fn0xaxghk8.svg",
+                "color": "#000000"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "name": "Video Browser",
+            "description": "A video browser that allows you to search for and watch YouTube videos.",
+            "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1724686012/portfolio/projects/drqhy7ftcbzknwasd0uy.jpg",
+            "technologies": [
+                "Vue.js",
+                "JavaScript",
+                "Axios"
+            ]
+        }
+    ],
+    "developed": "Developed by Manuel Barba | 2024"
+}

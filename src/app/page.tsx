@@ -2,31 +2,50 @@ import {FaLinkedinIn, FaGithub} from "react-icons/fa"
 
 import styles from './page.module.css'
 
-import MainTitle from '@/components/MainTitle/MainTitle'
-import MainButtons from '@/components/MainButtons/MainButtons'
+import Header from "./components/Header/Header"
 
-import { Inter } from 'next/font/google'
-
-import SocialMediaButton from "@/components/SocialMediaButton/SocialMediaButton"
-
-
-const inter = Inter({ subsets: ['latin'] })
+import WelcomeSection from "./components/WelcomeSection/WelcomeSection"
+import AboutMeSection from "./components/AboutMeSection/AboutMeSection"
+import SkillsSection from "./components/SkillsSection/SkillsSection"
+import ProjectSection from "./components/ProjectsSection/ProjectSection"
+import ContactSection from "./components/ContactSection/ContactSection"
+import Footer from "./components/Footer/Footer"
 
 export default function Home() {
   return (
-    <>
-      <div className={styles.mainContainer}>
-        <MainTitle/>
-        <MainButtons/>
+    <main>
+      <Header/>
+
+
+      <div
+        className={styles.divContainer}
+      >
+        <WelcomeSection/>
       </div>
-      <div className={styles.mainSocial}>
-        <SocialMediaButton link="https://www.linkedin.com/in/manuel-barba/">
-          <FaLinkedinIn/>
-        </SocialMediaButton>
-        <SocialMediaButton link={"https://github.com/ManuelBarba06"}>
-          <FaGithub/>
-        </SocialMediaButton>
+
+      <div>
+        <AboutMeSection/>
       </div>
-    </> 
+
+      <div
+        className={styles.divContainer}
+      >
+        <SkillsSection/>
+      </div>
+
+      <div
+        className={styles.divContainer}
+      >
+        <ProjectSection/>
+      </div>
+
+      <div
+        className={styles.divContainer}
+      >
+        <ContactSection/>
+      </div>
+
+      <Footer/>
+    </main>
   )
 }
