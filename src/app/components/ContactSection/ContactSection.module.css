@@ -1,0 +1,36 @@
+.ContactContainer {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 80px;
+}
+
+.ContactContainer p {
+    font-size: 1.25rem;
+    color: #D7D7D7;
+    margin-top: 7vh;
+    text-align: start;
+    width: 100%;
+}
+
+.linksContainer {
+    display: flex;
+    width: 100%;
+    align-items: start;
+    margin-top: 10vh;
+    flex-direction: column;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.linkSpan {
+    font-size: 1.25rem;
+    margin-left: 10px;
+}

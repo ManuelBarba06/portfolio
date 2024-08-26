@@ -8,6 +8,8 @@ import WelcomeSection from "./components/WelcomeSection/WelcomeSection"
 import AboutMeSection from "./components/AboutMeSection/AboutMeSection"
 import SkillsSection from "./components/SkillsSection/SkillsSection"
 import ProjectSection from "./components/ProjectsSection/ProjectSection"
+import ContactSection from "./components/ContactSection/ContactSection"
+import Footer from "./components/Footer/Footer"
 
 export default function Home() {
   return (
@@ -36,6 +38,14 @@ export default function Home() {
       >
         <ProjectSection/>
       </div>
+
+      <div
+        className={styles.divContainer}
+      >
+        <ContactSection/>
+      </div>
+
+      <Footer/>
     </main>
   )
 }
