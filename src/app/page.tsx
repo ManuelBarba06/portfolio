@@ -3,8 +3,11 @@ import {FaLinkedinIn, FaGithub} from "react-icons/fa"
 import styles from './page.module.css'
 
 import Header from "./components/Header/Header"
+
 import WelcomeSection from "./components/WelcomeSection/WelcomeSection"
 import AboutMeSection from "./components/AboutMeSection/AboutMeSection"
+import SkillsSection from "./components/SkillsSection/SkillsSection"
+import ProjectSection from "./components/ProjectsSection/ProjectSection"
 
 export default function Home() {
   return (
@@ -20,6 +23,18 @@ export default function Home() {
 
       <div>
         <AboutMeSection/>
+      </div>
+
+      <div
+        className={styles.divContainer}
+      >
+        <SkillsSection/>
+      </div>
+
+      <div
+        className={styles.divContainer}
+      >
+        <ProjectSection/>
       </div>
     </main>
   )

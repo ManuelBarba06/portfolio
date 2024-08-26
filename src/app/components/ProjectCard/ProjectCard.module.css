@@ -1,0 +1,99 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    height: 110%;
+    background-color: var(--color-cards-hex);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardContainer img {
+   width: 100%;
+   height: 60%;
+   border-radius: 10px;
+}
+
+.cardContainer h2 {
+    margin-top: 20px;
+    text-align: start;
+    width: 100%;
+}
+
+.cardContainer p {
+    margin-top: 20px;
+    text-align: start;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.overCardContainer {
+    background-color: var(--color-card-hover-hex);
+    width: 100%;
+    position: absolute;
+    bottom: -95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+    transition: bottom 0.5s ease-in-out; 
+}
+
+.cardContainer:hover .overCardContainer {
+    bottom: 0;
+}
+
+.overCardContainer .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.overCardContainer .technologiesContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+}
+
+.technologyPill {
+    border: 1px solid var(--color-secondary-hex);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.25rem;
+    color: var(--color-secondary-hex);
+    height: fit-content;
+}
+
+.buttonContainer {
+   width: 90%;
+   background-color: var(--color-card-hover-hex);
+   border: 1px solid var(--color-secondary-hex);
+   color: var(--color-secondary-hex);
+   height: 60px;
+   border-radius: 10px;
+   font-size: 1.5rem;
+}
+
+.buttonContainer:hover {
+    background-color: var(--color-secondary-hex);
+    color: var(--color-card-hover-hex);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.overCardContainer .divBottom {
+    background-color: var(--color-secondary-hex);
+    width: 100%;
+    height: 5%;
+    border-radius: 15px 15px 0 0;
+}
+
