@@ -5,7 +5,7 @@ import Title from '../Title/Title'
 import Carousel from '../Carousel/Carousel'
 import ItemCarousel from '../ItemCarousel/ItemCarousel'
 
-import {skills} from '@/data/portfolioInformation.json'
+import json from '@/data/portfolioInformation.json'
 
 const SkillsSection = () => {
   return (
@@ -21,10 +21,10 @@ const SkillsSection = () => {
         >
           <Carousel
             name="Front-End"
-            total={skills.frontEnd.length}
+            total={json.skills.frontEnd.length}
           >
             {
-              skills.frontEnd.map(({name, picture, color}) => (
+              json.skills.frontEnd.map(({name, picture, color}) => (
                 <ItemCarousel
                   name={name}
                   image={picture}
@@ -38,10 +38,10 @@ const SkillsSection = () => {
           <br/>
           <Carousel
             name="Back-End"
-            total={skills.backEnd.length}
+            total={json.skills.backEnd.length}
           >
             {
-              skills.backEnd.map(({name, picture, color}) => (
+              json.skills.backEnd.map(({name, picture, color}) => (
                 <ItemCarousel
                   name={name}
                   image={picture}

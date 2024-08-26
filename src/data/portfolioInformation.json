@@ -97,7 +97,5 @@
             ]
         }
     ],
-    "footer": {
-        "information": "Developed by Manuel Barba | 2024"
-    }
+    "developed": "Developed by Manuel Barba | 2024"
 }

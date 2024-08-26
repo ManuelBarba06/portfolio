@@ -1,4 +1,4 @@
-.ContactContainer {
+.contactContainer {
     display: flex;
     height: 80vh;
     align-items: center;
@@ -7,18 +7,18 @@
     padding: 0 80px;
 }
 
-.ContactContainer p {
+.contactContainer p {
     font-size: 1.25rem;
     color: #D7D7D7;
     margin-top: 7vh;
-    text-align: start;
+    text-align: left;
     width: 100%;
 }
 
 .linksContainer {
     display: flex;
     width: 100%;
-    align-items: start;
+    align-items: flex-start;
     margin-top: 10vh;
     flex-direction: column;
 }
