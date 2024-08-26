@@ -4,7 +4,7 @@ import styles from './ProjectSection.module.css'
 import Title from '../Title/Title'
 import ProjectCard from '../ProjectCard/ProjectCard'
 
-import {projects} from '@/data/portfolioInformation.json'
+import json from '@/data/portfolioInformation.json'
 
 const ProjectSection = () => {
   return (
@@ -19,7 +19,7 @@ const ProjectSection = () => {
           className={styles.projectsGrid}
         >
           {
-            projects.map((project) => (
+            json.projects.map((project) => (
               <ProjectCard
                 key={project.name}
                 {...project}

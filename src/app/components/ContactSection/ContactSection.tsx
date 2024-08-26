@@ -9,7 +9,7 @@ import Title from '../Title/Title'
 const ContactSection = () => {
   return (
     <div
-      className={styles.ContactContainer}
+      className={styles.contactContainer}
     >
         <Title
           name="Contact"
