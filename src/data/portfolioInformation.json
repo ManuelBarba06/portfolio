@@ -96,5 +96,8 @@
                 "Axios"
             ]
         }
-    ]
+    ],
+    "footer": {
+        "information": "Developed by Manuel Barba | 2024"
+    }
 }
