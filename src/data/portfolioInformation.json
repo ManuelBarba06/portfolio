@@ -84,5 +84,17 @@
                 "color": "#000000"
             }
         ]
-    }
+    },
+    "projects": [
+        {
+            "name": "Video Browser",
+            "description": "A video browser that allows you to search for and watch YouTube videos.",
+            "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1724686012/portfolio/projects/drqhy7ftcbzknwasd0uy.jpg",
+            "technologies": [
+                "Vue.js",
+                "JavaScript",
+                "Axios"
+            ]
+        }
+    ]
 }
