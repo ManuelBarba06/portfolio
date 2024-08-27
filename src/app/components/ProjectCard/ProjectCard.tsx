@@ -16,16 +16,16 @@ const ProjectCard = ({name, description, picture, technologies}: ProjectCardProp
       className={styles.cardContainer}
     >
       <Image
-        src={"https://res.cloudinary.com/dnesdnfxy/image/upload/v1724686012/portfolio/projects/drqhy7ftcbzknwasd0uy.jpg"}
+        src={picture}
         alt={"Project Image"}
         width={600}
         height={400}
       />
 
-      <h2>Video Browser</h2>
+      <h2>{name}</h2>
 
       <p>
-        A video browser for YouTube with search functionality.
+        {description}
       </p>
 
       <div
