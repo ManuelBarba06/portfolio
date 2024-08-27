@@ -4,7 +4,7 @@ import {IoLogoLinkedin, IoLogoGithub} from 'react-icons/io5'
 import styles from './ContactSection.module.css'
 import Title from '../Title/Title'
 
-
+import json from '@/data/portfolioInformation.json'
 
 const ContactSection = () => {
   return (
@@ -15,7 +15,7 @@ const ContactSection = () => {
           name="Contact"
         />
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet ipsum ut purus finibus vulputate id ut augue. Phasellus sed risus at lectus pellentesque tempus.</p>
+        <p>{json.contact}</p>
    
         <div
           className={styles.linksContainer}

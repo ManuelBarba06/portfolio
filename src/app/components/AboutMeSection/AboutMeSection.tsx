@@ -6,6 +6,8 @@ import styles from './AboutMeSection.module.css'
 import profileImage from '../../../assets/perfil.jpg'
 import Title from '../Title/Title'
 
+import json from '@/data/portfolioInformation.json'
+
 const AboutMeSection = () => {
   return (
     <div className={styles.aboutMeSectionContainer}>
@@ -19,7 +21,7 @@ const AboutMeSection = () => {
             <div
                 className={styles.description}
             >
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis condimentum libero et egestas. Vivamus lobortis rutrum condimentum. Integer suscipit metus sed neque cursus mattis. Nunc in tortor ac ex blandit sodales. Duis vitae posuere augue, et laoreet ipsum. Donec ac molestie mauris. Maecenas iaculis orci in egestas cursus.</p>
+                <p>{json.about_me}</p>
             </div>
 
             <div
