@@ -96,6 +96,48 @@
                 "JavaScript",
                 "Axios"
             ]
+        },
+        {
+            "name": "Portfolio",
+            "description": "This portfolio website, built using Next.js and TypeScript. It showcases my skills and projects.",
+            "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1724721728/portfolio/projects/idi0xmehommsazjcjhbh.png",
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "Redux Toolkit",
+                "React.js",
+                "React Dom"
+            ]
+        },
+        {
+            "name": "Vlog App",
+            "description": "A vlog app that allows you to upload and share your vlogs.",
+            "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1724722878/portfolio/projects/l99bzpg9newxi7eie4tq.jpg",
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                ".NET",
+                "C#",
+                "SQL Server",
+                "JWT",
+                "Bootstrap"
+            ]
+        },
+        {
+            "name": "Mastergas23",
+            "description": "A platform to bring installer services to gas stations.",
+            "picture": "https://res.cloudinary.com/dnesdnfxy/image/upload/v1724780596/portfolio/projects/kdvuoc7b1zn4ikznkbkj.png",
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "React.js",
+                "React Dom",
+                "Nest.js",
+                "JWT",
+                "Next UI",
+                "MongoDB",
+                "Socket.io"
+            ]
         }
     ],
     "contact": "Feel free to reach out to me for collaboration, inquiries, or networking opportunities. I’m always open to connecting with fellow professionals and discussing exciting projects. You can contact me through the following channels:",
