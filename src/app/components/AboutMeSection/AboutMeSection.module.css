@@ -2,7 +2,7 @@
     height: 100vh;
     background: rgb(28,34,39);
     background: linear-gradient(rgba(28,34,39,1) 0%, rgba(42,52,67,1) 50%, rgba(28,34,39,1) 100%);
-    padding: 0 50px;
+    padding: 0 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,4 +1,5 @@
 {
+    "about_me": "I am a computer engineer with 4 years of experience in full-stack development, specializing in both web and mobile application development. My expertise includes building robust backends using REST APIs and GraphQL interfaces, as well as creating intuitive frontends for web pages and mobile applications. I am passionate about delivering high-quality solutions that meet client needs and enhance user experiences. I’m also excited to learn new technologies and take on new challenges to continue growing in my career.",
     "skills": {
         "frontEnd": [
             {
@@ -97,5 +98,6 @@
             ]
         }
     ],
+    "contact": "Feel free to reach out to me for collaboration, inquiries, or networking opportunities. I’m always open to connecting with fellow professionals and discussing exciting projects. You can contact me through the following channels:",
     "developed": "Developed by Manuel Barba | 2024"
 }
