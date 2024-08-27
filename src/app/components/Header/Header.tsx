@@ -16,18 +16,22 @@ const Header = () => {
         >
           <ItemHeader
             name="About Me"
+            id="aboutMeSection"
           />
 
           <ItemHeader
             name="Skills"
+            id="skillsSection"
           />
 
           <ItemHeader
             name="Projects"
+            id="projectsSection"
           />
 
           <ItemHeader
             name="Contact"
+            id="contactSection"
           />
 
           <Select />

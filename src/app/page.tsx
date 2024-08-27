@@ -23,24 +23,29 @@ export default function Home() {
         <WelcomeSection/>
       </div>
 
-      <div>
+      <div
+        id="aboutMeSection"
+      >
         <AboutMeSection/>
       </div>
 
       <div
         className={styles.divContainer}
+        id="skillsSection"
       >
         <SkillsSection/>
       </div>
 
       <div
         className={styles.divContainer}
+        id="projectsSection"
       >
         <ProjectSection/>
       </div>
 
       <div
         className={styles.divContainer}
+        id="contactSection"
       >
         <ContactSection/>
       </div>
