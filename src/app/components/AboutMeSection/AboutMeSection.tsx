@@ -31,8 +31,8 @@ const AboutMeSection = () => {
                     <Image
                         src={profileImage}
                         alt="profile image"
-                        width={280}
-                        height={280}
+                        width={300}
+                        height={300}
                     />
                 </div>
                 <h2>Manuel Barba</h2>
