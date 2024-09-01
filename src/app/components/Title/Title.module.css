@@ -3,3 +3,9 @@
     font-weight: 800;
     color: #fff;
 }
+
+@media screen and (max-width: 896px) {
+    .title {
+        font-size: 5rem;
+    }
+}
