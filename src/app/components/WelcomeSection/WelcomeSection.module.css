@@ -3,14 +3,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .containerWelcomeSection h1 {
-    font-size: 6rem;
+    font-size: 5vw;
     font-weight: 800;
     color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    .containerWelcomeSection h1 {
+        font-size: 12vw;
+    }
 }
 
 .containerWelcomeSection h1 span {
     color: var(--color-secondary-hex);
 }
+
