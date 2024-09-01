@@ -1,6 +1,6 @@
 .skillsContainer {
     display: flex;
-    height: 60vw;
+    height: 60vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -10,4 +10,17 @@
 .carouselContainer {
     margin-top: 50px;
     width: 100%;
+}
+
+@media screen and (max-width: 896px) {
+    .skillsContainer {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+    .skillsContainer {
+        padding: 0 10px;
+        height: 100vh;
+    }
 }

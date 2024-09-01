@@ -68,3 +68,22 @@
         margin-top: 50px;
     }
 }
+
+@media screen and (max-width: 482px) {
+
+    .aboutMeSectionContainer {
+        padding: 0 20px;
+        height: 200vh;
+    }
+
+    .aboutMeSectionContainer .infoContainer p {
+        font-size: 1.25rem;
+    }
+
+    .infoContainer .imageContainer img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+}

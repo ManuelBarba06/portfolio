@@ -29,3 +29,34 @@
     border-radius: 5px;
 }
 
+@media screen and (max-width: 896px) {
+    .itemCarouselContainer {
+        min-width: 20%;
+    }
+
+    .itemCarouselContainer .containerInfo span {
+        font-size: 1.25rem;
+    }
+
+    .containerInfo img {
+        width: 105px;
+        height: 105px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+
+    .itemCarouselContainer {
+        min-width: 20%;
+    }
+
+    .itemCarouselContainer .containerInfo span {
+        font-size: 1rem
+    }
+
+    .containerInfo img {
+        width: 75px;
+        height: 75px;
+    }
+
+}
