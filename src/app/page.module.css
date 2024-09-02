@@ -3,12 +3,6 @@
   padding: 0 50px
 }
 
-@media screen and (max-width: 896px) {
-  .divContainer {
-    margin-top: 30vh;
-  }
-}
-
 @media screen and (max-width: 482px) {
   .divContainer {
     margin-top: 0;
