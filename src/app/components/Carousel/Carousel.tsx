@@ -15,13 +15,18 @@ const Carousel = ({name, children, total} : CarouselProps) => {
   const itemsPerSlide = total > 5 ? 5 : total;
 
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [width, setWidth] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       moveNext()
-    }, 3000)
+    }, 1000)
     return () => clearInterval(intervalId)
   }, [children])
+
+  useEffect(() => {
+    window.addEventListener('resize', () => setWidth(window.innerWidth))
+  }, [])
 
   const moveNext = () => {
     setCurrentIndex((prevIndex) => {

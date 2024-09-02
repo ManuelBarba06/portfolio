@@ -62,17 +62,18 @@
     flex-wrap: wrap;
     height: 60%;
     margin-top: 10px;
+    gap: 0;
 }
 
 .technologyPill {
     border: 1px solid var(--color-secondary-hex);
     border-radius: 10px;
     padding: 5px;
-    margin: 5px;
+    margin: 0 10px 0 0;
     font-size: 1.25rem;
     color: var(--color-secondary-hex);
     height: fit-content;
-    max-width: calc(100% / 3 - 10px);
+    line-height: 1;
 }
 
 .buttonContainer {
@@ -99,3 +100,12 @@
     border-radius: 15px 15px 0 0;
 }
 
+@media screen and (max-width: 896px) {
+    .cardContainer p {
+        font-size: 1rem;
+    }
+
+    .technologyPill {
+        font-size: 1rem;
+    }
+}

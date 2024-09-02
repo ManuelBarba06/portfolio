@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 80px;
+    padding: 0 10px;
+    margin-top: 100px;
 }
 
 .projectsGrid {
@@ -13,4 +14,11 @@
     row-gap: 100px;
     margin-top: 50px;
     width: 100%;
+}
+
+@media screen and (max-width: 896px) {
+    .projectsGrid {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 100px;
+    }
 }
