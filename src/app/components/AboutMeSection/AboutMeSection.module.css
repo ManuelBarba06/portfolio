@@ -48,3 +48,42 @@
     color: #fff;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 896px) {
+
+    .aboutMeSectionContainer {
+        padding: 0 50px;
+    }
+
+    .aboutMeSectionContainer .infoContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aboutMeSectionContainer .infoContainer p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .infoContainer .imageContainer {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 482px) {
+
+    .aboutMeSectionContainer {
+        padding: 0 20px;
+        height: 200vh;
+    }
+
+    .aboutMeSectionContainer .infoContainer p {
+        font-size: 1.25rem;
+    }
+
+    .infoContainer .imageContainer img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    
+}
